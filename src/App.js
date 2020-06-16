@@ -1,10 +1,14 @@
 import React from 'react';
 
+import { Cards, Chart, CountryPicker } from './Components';
+
 class App extends React.Component {
     render() {
         return (
             <div>
-                <h1>APP</h1>
+                <Cards />
+                <Chart />
+                <CountryPicker />
             </div>
         )
     }
